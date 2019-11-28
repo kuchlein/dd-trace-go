@@ -8,8 +8,8 @@ package mux
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace"
+	"gopkg.in/DataDog/dd-trace-go.v0/internal/globalconfig"
 )
 
 type routerConfig struct {

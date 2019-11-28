@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/ext"
 )
 
 // HTTPHeadersCarrier wraps an http.Header as a TextMapWriter and TextMapReader, allowing

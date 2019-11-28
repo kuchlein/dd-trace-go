@@ -13,10 +13,10 @@ import (
 
 	"github.com/emicklei/go-restful"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/ext"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/mocktracer"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/tracer"
+	"gopkg.in/DataDog/dd-trace-go.v0/internal/globalconfig"
 )
 
 func TestTrace200(t *testing.T) {

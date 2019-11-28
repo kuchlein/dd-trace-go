@@ -10,8 +10,8 @@ import (
 	"log"
 	"time"
 
-	redigotrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/garyburd/redigo"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	redigotrace "gopkg.in/DataDog/dd-trace-go.v0/contrib/garyburd/redigo"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/tracer"
 
 	"github.com/garyburd/redigo/redis"
 )

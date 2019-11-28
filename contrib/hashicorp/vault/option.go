@@ -8,7 +8,7 @@ package vault
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"gopkg.in/DataDog/dd-trace-go.v0/internal/globalconfig"
 )
 
 type config struct {

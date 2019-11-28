@@ -9,8 +9,8 @@ import (
 	"context"
 	"log"
 
-	buntdbtrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/tidwall/buntdb"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	buntdbtrace "gopkg.in/DataDog/dd-trace-go.v0/contrib/tidwall/buntdb"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/tracer"
 )
 
 func Example() {

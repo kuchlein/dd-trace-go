@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"gopkg.in/DataDog/dd-trace-go.v0/internal/version"
 )
 
 var (

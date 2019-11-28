@@ -5,7 +5,7 @@
 
 // Package twirp provides tracing functions for tracing clients and servers generated
 // by the twirp framework (https://github.com/twitchtv/twirp).
-package twirp // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/twitchtv/twirp"
+package twirp // import "gopkg.in/DataDog/dd-trace-go.v0/contrib/twitchtv/twirp"
 
 import (
 	"context"
@@ -14,9 +14,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/ext"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/tracer"
+	"gopkg.in/DataDog/dd-trace-go.v0/internal/log"
 
 	"github.com/twitchtv/twirp"
 )

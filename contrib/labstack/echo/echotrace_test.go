@@ -11,9 +11,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/ext"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/mocktracer"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/tracer"
 
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"

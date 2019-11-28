@@ -6,7 +6,7 @@
 package sarama
 
 import (
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/tracer"
 	sarama "gopkg.in/Shopify/sarama.v1"
 )
 

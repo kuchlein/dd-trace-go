@@ -3,13 +3,13 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016-2019 Datadog, Inc.
 
-package internal // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql/internal"
+package internal // import "gopkg.in/DataDog/dd-trace-go.v0/contrib/database/sql/internal"
 
 import (
 	"net"
 	"strings"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
+	"gopkg.in/DataDog/dd-trace-go.v0/ddtrace/ext"
 )
 
 // ParseDSN parses various supported DSN types (currently mysql and postgres) into a
